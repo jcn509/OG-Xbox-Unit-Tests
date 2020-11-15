@@ -28,6 +28,7 @@ def run_unit_tests(
         line = kernel_debug.get_line()
         status_info = False
 
+        # Print everything together so it doesn't get muddled with xqemu's output
         output = line
 
         while line != "Xbox Unity tests are complete!\n":
